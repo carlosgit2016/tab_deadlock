@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=DeadlockUteis
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ DeadlockUteis\ here.\r\n\r\n\ @author\ Jos\u00E9\ Lucas\ Panizio\ &\ Carlos\ Gabriel\r\n\ @version\ 16/09/2017\r\n
+comment1.params=l\ v
+comment1.target=boolean\ estaDuplicado(java.util.LinkedList,\ java.lang.String)
+comment1.text=\r\n\ Verifica\ duplicidade\ elementos\ na\ lista.\r\n\ \r\n\ @param\ \ \ LinkedList\ l\ \ \ -\ lista\ de\ vertices\ a\ ser\ analisada.\ \ \r\n\ @param\ \ \ String\ v\ \ \ \ \ \ \ -\ vertice\ para\ comparacao.\ \r\n\ @return\ \ boolean\ \ \ \ \ \ \ \ -\ retorna\ true\ se\ existir\ duplicidade.\r\n
+comment2.params=gd\ aM\ v
+comment2.target=java.lang.String\ escolheVertice(GrafoDeadlock,\ java.util.LinkedList,\ java.lang.String)
+comment2.text=\r\n\ Seleciona\ o\ vertice\ que\ n\u00E3o\ esta\ contido\ na\ lista\ de\ arestas\ marcadas.\r\n\ \r\n\ @param\ \ \ GrafoDeadlock\ gd\ \ \ -\ \ representacao\ de\ grafo.\r\n\ @param\ \ \ LinkedList\ aM\ \ \ \ \ \ -\ \ lista\ de\ arestas\ marcadas.\r\n\ @param\ \ \ String\ v\ \ \ \ \ \ \ \ \ \ \ -\ \ vertice\ para\ comparacao.\r\n\ @return\ \ String\ \ \ \ \ \ \ \ \ \ \ \ \ -\ \ vertice\ n\u00E3o\ marcado.\r\n
+comment3.params=l\ v
+comment3.target=boolean\ igualInicial(java.util.LinkedList,\ java.lang.String)
+comment3.text=\r\n\ Verifica\ se\ o\ vertice\ especificado\ \u00E9\ igual\ ao\ primeiro\ da\ lista\ analisada.\r\n\ \r\n\ @param\ \ \ LinkedList<String>\ l\ \ \ -\ \ lista\ de\ vertices.\ \ \ \ \r\n\ @param\ \ \ String\ v\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ -\ \ vertice\ a\ ser\ comparado.\r\n\ @return\ \ boolean\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ -\ \ retorna\ true\ se\ o\ vertice\ for\ o\ 1\u00BA\ da\ lista.\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \r\n
+comment4.params=gd\ l\ aM\ v
+comment4.target=boolean\ verificaCiclica(GrafoDeadlock,\ java.util.LinkedList,\ java.util.LinkedList,\ java.lang.String)
+comment4.text=\r\n\ Verifica\ se\ existe\ condi\u00E7\u00E3o\ ciclica,\ ou\ seja,\ deadlock\ a\ partir\ de\ um\ dado\ vertice.\r\n\ \r\n\ @param\ \ \ LinkedList<String>\ l\ \ \ -\ \ lista\ de\ vertices.\r\n\ @param\ \ \ LinkedList<String>\ aM\ \ -\ \ lista\ de\ arestas\ marcadas.\r\n\ @param\ \ \ String\ v\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ -\ \ vertice\ inicial.\r\n\ @return\ \ boolean\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ -\ \ retorna\ true\ se\ existir\ condicao\ ciclica\ a\ partir\ do\ vertice\ especificado.\r\n
+comment5.params=gd
+comment5.target=boolean\ verificaDeadLock(GrafoDeadlock)
+comment5.text=\r\n\ Analisa\ todos\ os\ vertices\ da\ lista,\ em\ busca\ de\ deadlock.\r\n\ \r\n\ @param\ \ \ GrafoDeadlock\ gd\ \ \ \ \ \ \ -\ \ representacao\ de\ grafo.\ \ \ \ \ \r\n\ @return\ \ boolean\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ -\ \ retorna\ true\ se\ existir\ deadlock\ no\ cenario.\r\n
+comment6.params=
+comment6.target=DeadlockUteis()
+comment6.text=\r\n\ Essa\ classe\ apenas\ oferece\ m\u00E9todos\ auxiliares,\ n\u00E3o\ deve\ nunca\ precisar\r\n\ instanciar\ objetos.\r\n
+numComments=7
